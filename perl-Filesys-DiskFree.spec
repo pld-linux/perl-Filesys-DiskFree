@@ -20,12 +20,12 @@ Summary(uk):	Модуль для Perl Filesys::DiskFree
 Summary(zh_CN):	Filesys::DiskFree Perl дё©И
 Name:		perl-Filesys-DiskFree
 Version:	0.06
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 Obsoletes:	perl-DiskFree
 BuildArch:	noarch
@@ -43,7 +43,8 @@ Filesys::DiskFree - 'df' dla perla.
 %patch -p1
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -60,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README eg
-%{perl_sitelib}/Filesys/DiskFree.pm
+%{perl_vendorlib}/Filesys/DiskFree.pm
 %{_mandir}/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*
