@@ -9,7 +9,7 @@ Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
 Summary(pl):	Filesys::DiskFree - przeno¶na postaæ uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
 Version:	0.06
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
