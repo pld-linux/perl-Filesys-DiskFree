@@ -1,0 +1,16 @@
+--- Filesys-DiskFree-0.06/eg/perldf	Fri Jul 24 00:23:27 1998
++++ Filesys-DiskFree-0.06/eg.new/perldf	Thu Oct  7 21:38:49 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ use strict;
+ 
+ #
+--- Filesys-DiskFree-0.06/eg/silly	Fri Jul 24 00:23:27 1998
++++ Filesys-DiskFree-0.06/eg.new/silly	Thu Oct  7 21:38:59 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ #
+ # Silly program which shows using this module
+ #
