@@ -14,7 +14,7 @@ BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Obsoletes:	perl-DiskFree
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Filesys-DiskFree - perform the Unix command 'df' in a portable fashion.
