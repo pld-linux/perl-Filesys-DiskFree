@@ -1,27 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Filesys
 %define	pnam	DiskFree
-Summary:	Filesys::DiskFree Perl module
-Summary(cs):	Modul Filesys::DiskFree pro Perl
-Summary(da):	Perlmodul Filesys::DiskFree
-Summary(de):	Filesys::DiskFree Perl Modul
-Summary(es):	Módulo de Perl Filesys::DiskFree
-Summary(fr):	Module Perl Filesys::DiskFree
-Summary(it):	Modulo di Perl Filesys::DiskFree
-Summary(ja):	Filesys::DiskFree Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Filesys::DiskFree ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Filesys::DiskFree
-Summary(pl):	Modu³ perla Filesys::DiskFree
-Summary(pt_BR):	Módulo Perl Filesys::DiskFree
-Summary(pt):	Módulo de Perl Filesys::DiskFree
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Filesys::DiskFree
-Summary(sv):	Filesys::DiskFree Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Filesys::DiskFree
-Summary(zh_CN):	Filesys::DiskFree Perl Ä£¿é
+Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
+Summary(pl):	Filesys::DiskFree - przeno¶na postaæ uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
 Version:	0.06
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e39b3b10468fd98973ce76a97351f3c4
@@ -33,11 +19,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Filesys::DiskFree - perform the Unix command 'df' in a portable
-fashion.
+Filesys::DiskFree Perl module does about what the UNIX command df(1)
+does, listing the mounted disks, and the amount of free space used and
+available.
 
 %description -l pl
-Filesys::DiskFree - 'df' dla perla.
+Modu³ Perla Filesys::DiskFree robi to samo, co uniksowe polecenie
+df(1), wypisuje listê zamontowanych dysków oraz ilo¶æ u¿ytego i
+dostêpnego miejsca na nich.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
