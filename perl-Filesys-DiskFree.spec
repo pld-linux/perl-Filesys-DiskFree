@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Filesys
-%define	pnam	DiskFree
+%define		pdir	Filesys
+%define		pnam	DiskFree
 Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
 Summary(pl):	Filesys::DiskFree - przeno¶na postaæ uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
