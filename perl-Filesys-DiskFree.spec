@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Filesys
 %define	pnam	DiskFree
-%include	/usr/lib/rpm/macros.perl
 Summary:	DiskFree perl module
 Summary(pl):	Modu³ perla DiskFree
 Name:		perl-Filesys-DiskFree
 Version:	0.06
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ fashion.
 Filesys-DiskFree - 'df' dla perla.
 
 %prep
-%setup -q -n Filesys-DiskFree-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
 
 %build
