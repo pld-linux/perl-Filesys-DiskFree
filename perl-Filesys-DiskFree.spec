@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla DiskFree
 Name:		perl-Filesys-DiskFree
 Version:	0.06
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Filesys/Filesys-DiskFree-%{version}.tar.gz
-Patch:		perl-Filesys-DiskFree-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Filesys/Filesys-DiskFree-%{version}.tar.gz
+Patch0:		perl-Filesys-DiskFree-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -17,7 +17,8 @@ Obsoletes:	perl-DiskFree
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Filesys-DiskFree - perform the Unix command 'df' in a portable fashion.
+Filesys-DiskFree - perform the Unix command 'df' in a portable
+fashion.
 
 %description -l pl
 Filesys-DiskFree - 'df' dla perla.
