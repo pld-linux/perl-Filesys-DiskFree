@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Filesys::DiskFree
 Summary(it):	Modulo di Perl Filesys::DiskFree
 Summary(ja):	Filesys::DiskFree Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Filesys::DiskFree ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Filesys::DiskFree
+Summary(nb):	Perlmodul Filesys::DiskFree
 Summary(pl):	Modu³ perla Filesys::DiskFree
 Summary(pt_BR):	Módulo Perl Filesys::DiskFree
 Summary(pt):	Módulo de Perl Filesys::DiskFree
