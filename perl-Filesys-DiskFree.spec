@@ -12,8 +12,6 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Filesys/Filesys-DiskFree-
 Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 Obsoletes:	perl-DiskFree
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
