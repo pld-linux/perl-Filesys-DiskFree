@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Filesys::DiskFree
 Summary(zh_CN):	Filesys::DiskFree Perl дё©И
 Name:		perl-Filesys-DiskFree
 Version:	0.06
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
