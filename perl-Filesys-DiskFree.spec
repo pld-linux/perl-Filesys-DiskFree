@@ -17,11 +17,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Filesys-DiskFree - perform the Unix command 'df' in a portable
+Filesys::DiskFree - perform the Unix command 'df' in a portable
 fashion.
 
 %description -l pl
-Filesys-DiskFree - 'df' dla perla.
+Filesys::DiskFree - 'df' dla perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
