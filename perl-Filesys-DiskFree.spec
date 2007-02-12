@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	DiskFree
 Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
-Summary(pl):	Filesys::DiskFree - przeno¶na postaæ uniksowego polecenia 'df'
+Summary(pl.UTF-8):   Filesys::DiskFree - przenoÅ›na postaÄ‡ uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
 Version:	0.06
 Release:	12
@@ -27,10 +27,10 @@ Filesys::DiskFree Perl module does about what the UNIX command df(1)
 does, listing the mounted disks, and the amount of free space used and
 available.
 
-%description -l pl
-Modu³ Perla Filesys::DiskFree robi to samo, co uniksowe polecenie
-df(1), wypisuje listê zamontowanych dysków oraz ilo¶æ u¿ytego i
-dostêpnego miejsca na nich.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Filesys::DiskFree robi to samo, co uniksowe polecenie
+df(1), wypisuje listÄ™ zamontowanych dyskÃ³w oraz iloÅ›Ä‡ uÅ¼ytego i
+dostÄ™pnego miejsca na nich.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
