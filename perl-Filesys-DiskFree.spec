@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	DiskFree
 Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
-Summary(pl.UTF-8):   Filesys::DiskFree - przenośna postać uniksowego polecenia 'df'
+Summary(pl.UTF-8):	Filesys::DiskFree - przenośna postać uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
 Version:	0.06
 Release:	12
