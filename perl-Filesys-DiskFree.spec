@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Filesys
 %define		pnam	DiskFree
+%include	/usr/lib/rpm/macros.perl
 Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
 Summary(pl.UTF-8):	Filesys::DiskFree - przenośna postać uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
@@ -16,8 +16,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e39b3b10468fd98973ce76a97351f3c4
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Filesys-DiskFree/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-DiskFree
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
