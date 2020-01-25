@@ -4,7 +4,6 @@
 
 %define		pdir	Filesys
 %define		pnam	DiskFree
-%include	/usr/lib/rpm/macros.perl
 Summary:	Filesys::DiskFree - perform the UNIX command 'df' in a portable fashion
 Summary(pl.UTF-8):	Filesys::DiskFree - przenośna postać uniksowego polecenia 'df'
 Name:		perl-Filesys-DiskFree
